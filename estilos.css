@@ -1,0 +1,118 @@
+* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo del encabezado (solo título) */
+header {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+/* Menú de navegación sticky */
+.sticky-nav {
+    background: #007BFF;
+    color: #fff;
+    position: sticky;
+    top: 0; /* El menú se adhiere en la parte superior al hacer scroll */
+    z-index: 1000;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.sticky-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sticky-nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.sticky-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Espacio para el menú sticky */
+main {
+    padding: 20px;
+}
+
+/* Estilo de las secciones */
+section {
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #007BFF;
+}
+
+/* Estilos de las listas */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Estilo de las citas */
+blockquote {
+    border-left: 5px solid #007BFF;
+    padding-left: 15px;
+    margin: 20px 0;
+    font-style: italic;
+    color: #555;
+}
+
+/* Estilo del pie de página */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #007BFF;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilo de enlaces */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo de las imágenes */
+img {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
